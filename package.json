@@ -1,6 +1,7 @@
 {
   "name": "learning-center",
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "ACME Learning Center is a web platform illustrating the use of Angular, Material Design, in-app navigation, i18n with Domain-Driven Design approach.",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -8,15 +9,25 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
+  "keywords": [
+    "angular",
+    "material-design",
+    "i18n",
+    "domain-driven-design"
+  ],
   "private": true,
   "packageManager": "npm@11.19.0",
   "dependencies": {
+    "@angular/cdk": "^22.2.0",
     "@angular/common": "^22.2.0",
     "@angular/compiler": "^22.2.0",
     "@angular/core": "^22.2.0",
     "@angular/forms": "^22.2.0",
+    "@angular/material": "^22.2.0",
     "@angular/platform-browser": "^22.2.0",
     "@angular/router": "^22.2.0",
+    "@ngx-translate/core": "^18.0.0",
+    "@ngx-translate/http-loader": "^18.0.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0"
   },
@@ -26,7 +37,8 @@
     "@angular/compiler-cli": "^22.2.0",
     "jsdom": "^30.0.0",
     "prettier": "^3.8.1",
-    "typescript": "~6.0.2",
-    "vitest": "^5.0.0"
+    "typescript": "~6.0.3",
+    "vitest": "^5.0.0",
+    "json-server": "^0.17.4"
   }
 }
