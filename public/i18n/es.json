@@ -1,3 +1,6 @@
 {
-
+  "home": {
+    "title": "Bienvenido",
+    "content": "Bienvenido a ACME Learning Center"
+  }
 }
