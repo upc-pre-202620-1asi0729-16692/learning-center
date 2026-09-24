@@ -11,5 +11,9 @@
     "title": "Página No Encontrada",
     "content": "La ruta <strong>{invalid-path}</strong> no está disponible.",
     "go-home": "Ir a Inicio"
+  },
+  "option": {
+    "home": "Inicio",
+    "about": "Acerca de"
   }
 }
