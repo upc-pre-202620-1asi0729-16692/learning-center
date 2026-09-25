@@ -9,7 +9,7 @@
   },
   "page-not-found": {
     "title": "Page Not Found",
-    "content": "The path <strong>{invalid-path}</strong> is not available.",
+    "content": "The path <strong>{invalid_path}</strong> is not available.",
     "go-home": "Go Home"
   },
   "option": {
